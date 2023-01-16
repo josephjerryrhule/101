@@ -1,0 +1,14 @@
+.navigationlist {
+  list-style-type: none;
+  display: inline;
+}
+
+li {
+  display: inline;
+}
+
+h1,
+h2 {
+  font-size: 16px;
+  color: darkgreen;
+}
