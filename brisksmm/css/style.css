@@ -1,0 +1,55 @@
+/*
+Importing Google Fonts
+*/
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Roboto:wght@300;400;700&display=swap");
+
+/* Styling Navigation Area */
+
+.briskcontainer {
+  width: 90%;
+  margin-left: auto !important;
+  margin-right: auto !important;
+}
+
+.briskheader {
+  background-color: #ffcd1e;
+}
+
+.brisknav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navlinks {
+  display: inline-flex;
+  list-style-type: none;
+  align-items: center;
+}
+
+.navlinks a {
+  text-decoration: none;
+}
+
+.nav-item {
+  margin-right: 78px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 28.13px;
+  color: #18214d;
+}
+
+.navbtn-item {
+  background-color: #ffffff;
+  border: none;
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28.13px;
+  color: #000;
+  width: 287px;
+  height: 56px;
+  border-radius: 7px;
+}
