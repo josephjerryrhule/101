@@ -13,10 +13,21 @@ Importing Google Fonts
 }
 
 .briskheader {
-  background-color: #ffcd1e;
+  padding-top: 30px;
+  position: fixed;
+  width: 100%;
 }
 
-.brisknav {
+.hero {
+  background-color: #ffcd1e;
+  width: 98%;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.brisknav,
+.briskhero {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -52,4 +63,81 @@ Importing Google Fonts
   width: 287px;
   height: 56px;
   border-radius: 7px;
+}
+
+.hero {
+  height: 1047px;
+  display: flex;
+  align-items: center;
+}
+
+.herotitle {
+  font-family: "Roboto", sans-serif;
+  font-size: 60px;
+  color: #141c47;
+  font-weight: bold;
+  line-height: 100px;
+  max-width: 551px;
+}
+
+.exercpt {
+  font-family: "Roboto", sans-serif;
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 28.13px;
+  color: #18214d;
+  max-width: 732px;
+}
+
+.herobtnarea {
+  display: flex;
+  gap: 19px;
+}
+
+.quotebtn {
+  width: 243px;
+  height: 75px;
+  background-color: #141c47;
+  border: none;
+  border-radius: 7px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+  font-size: 24px;
+  line-height: 28.13px;
+  font-weight: 600;
+}
+
+.learnmore {
+  background-color: white;
+  color: black;
+}
+
+.briskheroimg {
+  margin-right: 50px;
+}
+
+.briskherosettingsarea {
+  position: absolute;
+  right: 0;
+  background-color: #fff;
+  border-radius: 7px;
+  width: 96px;
+}
+
+.brisksettings {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: end;
+  height: 408px;
+  gap: 20px;
+}
+
+.brisksettings span {
+  border-bottom: 1px solid #80808082;
+  width: 100%;
+}
+
+.settingslast {
+  padding-bottom: 20px;
 }
