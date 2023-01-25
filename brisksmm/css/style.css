@@ -141,3 +141,64 @@ Importing Google Fonts
 .settingslast {
   padding-bottom: 20px;
 }
+
+.clientarea {
+  padding-top: 227px;
+}
+
+.clientlogos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 120px;
+}
+
+.dogimagearea {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.dogimagetitle {
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 50px;
+  color: #141c47;
+  line-height: 60.51px;
+  max-width: 532px;
+}
+
+.dogimagespancontent {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-bottom: 60px;
+}
+
+.dogimagespanarea {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.dogparagraph {
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 29.05px;
+  color: #000;
+  max-width: 504px;
+}
+
+.dogimagebtn {
+  width: 305px;
+  height: 86px;
+  background-color: #ffcd1e;
+  border-radius: 7px;
+  border: none;
+  font-family: "Inter", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29.05px;
+  color: #141c47;
+}
